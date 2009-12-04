@@ -1,0 +1,693 @@
+/*
+Theme Name: citywatch
+Author: AliModabber
+Author URI: https://mixa.ir/team/alimodabber
+Description: This WordPress theme is 100% responsive blah blah...
+Version: 2
+Tags: one-column, left-sidebar, responsive-grid, etc
+*/
+
+/* -------------------------------------------------------- Basic Elements */
+
+body{
+  background-color: #f5f5f5;
+}
+
+p{
+  margin: 0;
+  cursor: default;
+}
+
+body footer .copyright h6{
+  margin: 0;
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none;
+  cursor: default;
+}
+
+li{
+  list-style: none;
+}
+
+h2 , h3 , h1{
+  margin: 0;
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none;
+  cursor: default;
+}
+
+/*div , footer{
+  min-height: 50px;
+  margin: 0;
+}
+*/
+/* -------------------------------------------------------- head-slide */
+
+.back-img{
+  overflow: auto;
+  position: relative;
+}
+
+.back-img .text-box h1{
+  color: #eee;
+  font-size:2em;
+  display: inline-block;
+}
+
+.back-img .text-box h2{
+  color: #eee;
+  font-size:2em;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.back-img p{
+  font-size: 1.6em;
+  text-align: justify;
+}
+
+.sisangan {
+  padding: 25px;
+  position: absolute;
+  right: 5%;
+  top: 90px;
+}
+
+.sahel{
+  padding: 25px;
+  position: absolute;
+  right: 2%;
+  bottom: 80px;
+  left: 39%;
+}
+
+.lake{
+  padding: 25px;
+  position: absolute;
+  right: 2%;
+  top: 50px;
+  left: 39%;
+}
+
+.lake-2{
+  padding: 25px;
+  position: absolute;
+  right: 2%;
+  top: 80px;
+  left: 39%;
+}
+
+.jangal{
+  padding: 25px;
+  position: absolute;
+  right: 2%;
+  top: 150px;
+}
+
+/* -------------------------------------------------------- header-link-photos */
+
+header .photos{
+  position: absolute;
+  bottom: 20px;
+  left: 2%;
+  background-color: rgba(34,34,34,.75);
+  color: #fff;
+  padding: 6px;
+  transition:.3s;
+}
+
+header .photos:hover{
+  background-color: rgba(34,34,34,.9);
+}
+
+header .photos img{
+  width: 45px;
+}
+
+/* -------------------------------------------------------- top-line */
+
+.property{
+  background-color: #fff;
+  min-height: 120px;
+  padding: 50px;
+  text-align: center;
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none;
+  cursor: default;
+}
+
+.property p{
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.hotel .container .property p{
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+/* -------------------------------------------------------- populate&height-line */
+
+.detail{
+  min-height: 400px;
+  background-color: #2a2a2a;
+}
+
+.populate{
+  color: #333;
+  font-weight: 700;
+  transition:.3s;
+}
+
+.populate:hover {
+  color: #111;
+
+}
+
+.detail .populate{
+  min-height: 400px;
+  padding: 40px 0;
+  background-color: #fec830;
+}
+
+.detail .height{
+  min-height: 400px;
+  padding-top: 40px;
+}
+
+.populate p,.height p {
+  font-size: 5em;
+  font-weight: 700;
+  text-align: center;
+  margin: 30px 0;
+}
+
+.height{
+  color: #eee;
+  transition:.3s;
+}
+
+.height:hover {
+  color: #fff;
+}
+
+
+/* -------------------------------------------------------- port details-line */
+
+.port{
+  background-image: url(images/bandar.jpg);
+  background-size: cover;
+  min-height: 600px;
+  padding: 50px;
+  background-position: center;
+  position: relative;
+}
+
+.port .text-box{
+  position: absolute;
+  background-color: rgba(62, 60, 60, 0.4);
+  right: 2%;
+  left: 39%;
+  bottom: 10px;
+}
+
+.port .text-box:hover{
+  background-color: rgba(62, 60, 60, 0.5);
+}
+
+.port p{
+  font-size: 1.6em;
+  text-align: justify;
+}
+
+/* -------------------------------------------------------- text-box-div */
+
+.text-box{
+  background-color: rgba(62, 60, 60, 0.6);
+  color: #eee;
+  padding: 40px;
+  transition:.3s;
+  position: absolute;
+}
+
+.text-box:hover{
+  color: #fff;
+  background-color: rgba(62, 60, 60, 0.65);
+}
+
+/* -------------------------------------------------------- airport details-line */
+
+.airport{
+  min-height: 600px;
+  background-image: url(images/Air.jpg);
+  background-size: cover;
+  padding: 50px;
+  padding-top: 50px;
+  background-position: right bottom;
+  position: relative;
+}
+
+.airport .text-box{
+  position: absolute;
+  right: 45%;
+  left: 2%;
+  top: 4%;
+}
+
+.airport p{
+  text-align: justify;
+  font-size: 1.6em;
+}
+
+/* -------------------------------------------------------- bottom-line-eghamat */
+
+
+.eghamat{
+  min-height: 150px;
+  background-color: #eee;
+}
+
+/* -------------------------------------------------------- hotel details-line */
+
+
+.hotel .container .property .span4{
+  color: #111;
+  text-align: center;
+}
+
+.hotel .container .property .span4 img{
+  width: 70px;
+}
+
+.hotel .property{
+  background-color: transparent;
+}
+
+.hotel .property p{
+  font-size: 1.2em;
+  color: #fff;
+}
+
+.hotel{
+  background-image: url(images/binding_dark.png);
+  background-attachment: fixed;
+}
+
+.images-box .row .span4{
+  position: relative;
+  border-radius: 3px;
+}
+
+.images-box .cover{
+  position: absolute;
+  width: 100%;
+  min-height: 350px;
+  background-color: rgba(21, 20, 20, 0.85);
+  transition:.6s;
+}
+
+.cover img{
+  width: 30%;
+  transition:.2s;
+  margin: 0;
+  margin-right: 36%;
+}
+
+.images-box .cover h3{
+  font-size: 5em;
+  text-align: center;
+  color: #eee;
+  margin-top: 10px;
+  transition:.5s;
+  opacity: 1;
+}
+
+.span4:hover .cover{
+  opacity: 0;
+  transition:.5s;
+}
+
+.images-box .hotel_img{
+  background-image: url(images/hotel.jpg);
+  background-size: cover;
+  min-height: 350px;
+  background-position: center bottom;
+}
+
+.images-box .vila{
+  background-image: url(images/vila1.jpg);
+  background-size: cover;
+  min-height: 350px;
+  background-position: center bottom;
+}
+
+.images-box .suit{
+  background-image: url(images/vila.jpg);
+  background-size: cover;
+  min-height: 350px;
+  background-position: center bottom;
+}
+
+.images-box{
+  background-color: #fff;
+  min-height: 500px;
+  padding: 80px 0;
+}
+
+
+/* -------------------------------------------------------- map-line */
+
+.map .overlay{
+  position: absolute;
+  width: 100%;
+  min-height: 350px;
+  background-color: transparent;
+}
+
+.map .overlay p{
+  opacity: 0;
+  font-size: 4em;
+  text-align: center;
+  margin-top: 145px;
+  color: #eee;
+}
+
+.map:hover .overlay{
+  height: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition:.65s;
+}
+
+.map:focus .overlay{
+  height: 0;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.map:focus{
+  z-index: 3;
+}
+
+.google-map{
+  width: 100%;
+  min-height: 350px;
+}
+
+/* --------------------------------------------------------footer */
+
+footer{
+  background-color: #233140;
+  padding: 8px;
+  padding-bottom: 5px;
+  min-height: 70px;
+  color: #fff;
+  position: relative;
+}
+
+footer .copyright{
+  text-align: center;
+  bottom: 0;
+}
+
+footer .copyright a{
+  color: #eee;
+  text-shadow: .2px .2px transparent;
+}
+
+footer .copyright h6{
+  color: #eee;
+  font-size: 1.2em;
+  line-height: 70px;
+}
+
+footer .copyright a:hover{
+  color: #fff;
+  text-shadow: .2px .2px #fff;
+}
+
+/* --------------------------------------------------------images-page */
+
+
+.hover-thumbnail{
+  position: absolute;
+  background-color: #f5f5f5;
+  color: #222;
+  min-height: 60px;
+  top: 30px;
+  transition: .3s;
+  padding: 2px 8px;
+  overflow: hidden;
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none;
+}
+
+.thumbnail_img:hover .hover-thumbnail{
+  visibility: visible;
+  background-color: #fec830;
+  /*background-color: #f9ba48;*/
+}
+
+.hover-thumbnail p{
+  text-align: center;
+  line-height: 60px;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.thumbnail_img{
+  position: relative;
+  border: 2px solid transparent;
+  transition: .3s;
+  margin-bottom: 23px;
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none;
+}
+
+.thumbnail_img:hover{
+  border: 2px solid #fec830;
+  /*border: 2px solid #f9ba48;*/
+}
+
+.thumbnail_img i{
+  position: absolute;
+  bottom: 4px;
+  left: 4px;
+  color: #f5f5f5;
+  z-index: 2;
+  font-size: 1.5em;
+}
+
+.mosallas{
+  left: 0;
+  bottom: 0;
+  position: absolute;
+  border-left: 45px solid #f5f5f5;
+  transition: .3s;
+  border-top: 45px solid transparent;
+}
+
+.thumbnail_img:hover .mosallas{
+  border-left-color: #fec830;
+}
+
+
+.main .property img{
+  width: 8%;
+  margin: 15px 2%;
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none;
+}
+
+.pages{
+  background-color: #f5f5f5;
+  min-height: calc(100% - 148px);
+  text-align: justify;
+  cursor: default;
+}
+
+.pages h2{
+font-weight:700;
+margin-bottom:10px;
+}
+
+.pages h3{
+font-weight: 700;
+margin-top:15px;
+}
+
+.main{
+  min-height: calc(100% - 148px);
+}
+
+.main .container{
+  padding: 5em 0;
+}
+
+.main .property{
+  background-color: #eaeaea;
+  padding: 0;
+}
+
+.yellow-text{
+  color: #f9b439;
+}
+
+.aside{
+  padding: 30px 0;
+  background-color: #444;
+}
+
+.breadcrumbs{
+  background-color: #eaeaea;
+  /*display: inline-block;*/
+}
+
+.breadcrumbs span{
+  display: inline-block;
+  padding: 10px;
+  color: #f9b439;
+  font-size: 1.2em;
+  font-weight: 500;
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none;
+  cursor: default;
+}
+
+.breadcrumbs a span{
+  font-size: 1.2em;
+  color: #222;
+  border-bottom: 3px solid #777;
+  transition: .3s;
+}
+
+.breadcrumbs a span:hover{
+  color: #222;
+  border-color: #f9b439;
+  cursor: pointer;
+}
+
+#bgvid{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
+
+.back-img .full-img{
+  max-height: 800px;
+  min-width: 100%;
+  min-height: 100%;
+/*  width: auto;
+  height: auto;*/
+}
+
+.back-img{
+  position: relative;
+  /*min-height: 100%;*/
+}
+
+.video-bg{
+  min-height: 100%;
+}
+
+
+@-webkit-keyframes fade {
+    0%   {opacity: .3;}
+    50%   {opacity: .1;}
+    100%   {opacity: .3;}
+}
+
+.video-bg i{
+  position: absolute;
+  bottom: 40px;
+  left: 47%;
+  color: #333;
+  font-size: 9em;
+  opacity: .8;
+  -webkit-animation-name: fade; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 2s; /* Chrome, Safari, Opera */
+  animation-name: fade;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+.back-img .gallery-ink{
+  position: absolute;
+  bottom: 20px;
+  left: 2%;
+  background-color: rgba(34,34,34,.75);
+  color: #fff;
+  padding: 6px;
+  transition:.3s;
+}
+
+.back-img .gallery-ink:hover{
+  background-color: rgba(34,34,34,.9);
+}
+
+.back-img .gallery-ink img{
+  width: 45px;
+}
+
+/* --------------------------------------------------------media-screen */
+
+@media only screen and (max-width: 768px){
+.hotel .container .property .span4{ margin-bottom: 45px!important;}
+.row > .offset4:not(:first-child) { margin-left: 34.170207%;}
+.map .overlay{  min-height: 350px; opacity: 1; background-color: rgba(0,0,0,0.5); }
+.map .overlay p{ opacity: 1;}
+.google-map{ height: 350px;}
+.map .overlay{ min-height: 350px;}
+.map .overlay p{ margin-top: 80px;}
+.map{ height: 350px;}
+.map iframe{ height: 350px; min-height: 350px;}
+.port .text-box{  right: 2%; left: 2%; bottom: 11%;}
+.airport .text-box{  right: 2%; left: 2%; top: 5%;}
+.sisangan , .sahel , .jangal , .lake , .lake-2{ right: 4%; padding: 30px 20px; top: 10px; left: auto;}
+/*.jangal { bottom: 292px;}*/
+.images-box .cover { padding-top: 6em;}
+.main .property img{ width: 15%;}
+.back-img .text-box p{ display: none;}
+.back-img .full-img{ min-height: 400px; }
+.video-bg i { left: 40%; }
+.images-box .cover{background-color: rgba(21, 20, 20, 0.5);}
+}
+
+@media only screen and (max-width: 768px) and (orientation : landscape){
+  .google-map{ height: 250px;}
+  .back-img .full-img{ min-height: 270px; }
+  /*.jangal { bottom: 243px;}*/
+  .map .overlay{ min-height: 252px;}
+  .map .overlay p{ margin-top: 80px;}
+  .map{ height: 250px;}
+  .map iframe{ height: 250px; min-height: 250px;}
+  .map .textwidget{ height: 250px;}
+  .sisangan , .sahel , .jangal{ top: 25px;}
+  .images-box .hotel_img  , .images-box .vila , .images-box .suit{ min-height: 250px; padding-top: 0;}
+  .images-box .cover { min-height: 250px; }
+  .images-box .cover h3 { margin-top: -35px;}
+  .images-box .cover img { width: 20%; margin-right: 41%;}
+  .port , .airport{ min-height: 350px;}
+  .detail .populate , .detail .height{ min-height: 290px; padding-top: 5px;}
+  .video-bg i { left: 45%;}
+}
